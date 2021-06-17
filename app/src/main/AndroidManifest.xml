@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.sarkar.chatto">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Chatto"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="m">
+        <activity android:name=".GroupChatActivity" />
+        <activity android:name=".ChatActivity">
+         </activity>
+        <activity
+            android:name=".phoneNumberActivity"
+            android:screenOrientation="fullSensor"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".SetupProfileActivity"
+            android:screenOrientation="fullSensor"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".otpActivity"
+            android:screenOrientation="fullSensor"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".MainActivity"
+            android:windowSoftInputMode="stateAlwaysHidden"/>
+    </application>
+
+</manifest>

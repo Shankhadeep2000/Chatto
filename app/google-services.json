@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "659125193914",
+    "project_id": "chatto-5c064",
+    "storage_bucket": "chatto-5c064.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659125193914:android:4aebfdc274347721f4c683",
+        "android_client_info": {
+          "package_name": "com.sarkar.chatto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659125193914-d2q8a74nr45njq5ff9uhebi4b895clkd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sarkar.chatto",
+            "certificate_hash": "91d9d50d09f6abf440e27aeff22cd7d3e59339f1"
+          }
+        },
+        {
+          "client_id": "659125193914-r5bg0q76hp505buvaeu5nicmt2ilstfn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNb6_AQ2pGwSC1rAeLbj-mqdZasMpUO1g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "659125193914-r5bg0q76hp505buvaeu5nicmt2ilstfn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
